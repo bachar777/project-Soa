@@ -1,6 +1,6 @@
 # Client Management Frontend (SOA Project)
 
-## 📌 Description du projet
+## Description du projet
 
 Ce projet est une **application frontend en React** permettant la gestion des clients dans le cadre d’un projet.
 
@@ -16,7 +16,7 @@ Les données sont récupérées depuis un service backend exposé via des endpoi
 
 ---
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 - **React.js**
 - **JavaScript (ES6+)**
@@ -27,18 +27,23 @@ Les données sont récupérées depuis un service backend exposé via des endpoi
 
 ---
 
-## ▶️ Instructions pour exécuter le projet
+##  Instructions pour exécuter le projet
 
-### 1️⃣ Prérequis
+###  Prérequis
 
 Assurez-vous d’avoir installé :
 - **Node.js** (version 16 ou supérieure recommandée)
 - **npm**
 - Un **backend fonctionnel** exposant les endpoints REST
 
+
+###  Video
+
+https://drive.google.com/drive/folders/1XbDikSEcVDwLYRcOvxk9bDzBTPtoFIIr?usp=drive_link
+
 ---
 
-### 2️⃣ Cloner le projet
+###  Cloner le projet
 
 ```bash
 git clone https://github.com/bachar777/project-Soa.git
