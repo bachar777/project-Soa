@@ -1,4 +1,4 @@
-// src/components/Clients.js
+
 import { useEffect, useState } from "react";
 import api from "../services/api";
 import "./Clients.css";
@@ -25,7 +25,7 @@ export default function Clients() {
         api.get("/exercice/revision/getAll/client") 
            .then(res => {
                 console.log(res.data);
-                // Handle both array and single object responses
+             
                 const clientData = Array.isArray(res.data.Client) 
                     ? res.data.Client 
                     : [res.data.Client];
@@ -88,7 +88,7 @@ export default function Clients() {
         e.preventDefault();
         
         if (editingClient) {
-            // Update existing client
+          
             api.put(`/exercice/revision/update/client/${editingClient.id}`, formData)
                .then(() => {
                    fetchClients();
@@ -100,7 +100,7 @@ export default function Clients() {
                    alert("Error updating client");
                });
         } else {
-            // Add new client
+         
             api.post("/exercice/revision/add/client", formData)
                .then(() => {
                    fetchClients();
